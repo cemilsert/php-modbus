@@ -1,9 +1,9 @@
 <?php
 
-require_once dirname(__FILE__) . '/../Phpmodbus/ModbusMaster.php';
+require_once dirname(__FILE__) . '/../class/ModbusMaster.php';
 
 // Create Modbus object
-$ip = "172.20.65.238";
+$ip = "10.0.0.9";
 $modbus = new ModbusMaster($ip, "TCP");
 
 try {
@@ -64,4 +64,4 @@ catch (Exception $e) {
         ?>
 
     </body>
-</html> 
+</html>
