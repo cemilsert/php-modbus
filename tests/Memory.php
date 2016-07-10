@@ -28,9 +28,9 @@ catch (Exception $e) {
         <title>WAGO 750-841 M-memory dump</title>
     </head>
     <body>
-        <h1>Dump of M-memory from WAGO 750-84x series coupler.</h1>
+        <h1>Dump of M-memory</h1>
         <ul>
-            <li>PLC: 750-84x series</li>
+            <li>PLC</li>
             <li>IP: <?php echo $ip?></li>
             <li>Modbus module ID: <?php echo $moduleId?></li>
             <li>Modbus memory reference: <?php echo $reference?></li>
