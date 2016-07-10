@@ -25,7 +25,7 @@ catch (Exception $e) {
     <head>
         <meta http-equiv="content-type" content="text/html; charset=windows-1250">
         <meta name="generator" content="PSPad editor, www.pspad.com">
-        <title>WAGO 750-841 M-memory dump</title>
+        <title>PLC M-memory dump</title>
     </head>
     <body>
         <h1>Dump of M-memory</h1>
