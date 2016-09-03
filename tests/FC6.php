@@ -1,6 +1,6 @@
 <?php
 
-require_once dirname(__FILE__) . '/../Phpmodbus/ModbusMaster.php';
+require_once dirname(__FILE__) . '/../class/ModbusMaster.php';
 
 // Create Modbus object
 $modbus = new ModbusMaster("10.0.0.9", "UDP");
